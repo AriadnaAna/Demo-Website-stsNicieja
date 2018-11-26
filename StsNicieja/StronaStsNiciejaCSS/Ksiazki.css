@@ -1,0 +1,730 @@
+/*font-family: 'Cookie', cursive;
+font-family: 'Open Sans', sans-serif;*/
+
+* {
+
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    background-color: #F7F7D4;
+}
+
+
+header {
+    width: 100%;
+    height: 10vh;
+
+
+
+
+
+}
+
+.clearfix::after {
+    clear: both;
+    content: "";
+    display: block;
+}
+
+
+nav {
+    background-image: url(../img/wall-1846841_1920.jpg);
+    width: 100%;
+    height: 10vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+
+nav ul li {
+
+    list-style: none;
+    line-height: 10vh;
+    padding-left: 150px;
+    float: left;
+    margin: 0 auto;
+    overflow: hidden;
+
+}
+
+
+
+nav ul li a {
+
+    margin: 0 10px;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: rgb(23, 9, 9);
+    font-size: 25px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    transition: .7s;
+
+
+}
+
+
+.name {
+
+    font-size: 40px;
+    font-family: 'Cookie', cursive;
+
+
+}
+
+nav ul li a:hover {
+    cursor: pointer;
+    border: 2px solid black;
+    background-color: rgba(69, 65, 65, 0.2);
+    border-color: bisque;
+    color: bisque;
+
+}
+
+.name:hover {
+    border: none;
+    background-color: transparent;
+    color: black;
+
+}
+
+main {
+    max-width: 1240px;
+    margin: 50px auto;
+
+}
+
+.hKsiazki {
+
+    padding: 20px 10px;
+    margin-bottom: 40px;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 50px;
+}
+
+.books {
+    margin: 20px;
+
+}
+
+
+
+.book {
+
+    float: left;
+    width: 250px;
+    height: 350px;
+    margin: 25px;
+    border: 1px solid black;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+
+
+
+}
+
+
+.books .book:nth-child(1) {
+    background-image: url(../img/Tom%201.jpg);
+    background-repeat: no-repeat;
+
+
+}
+
+.books .book:nth-child(2) {
+    background-image: url(../img/Tom%202.jpg);
+
+
+}
+
+.books .book:nth-child(3) {
+    background-image: url(../img/Tom%203.jpg);
+
+
+
+}
+
+.books .book:nth-child(4) {
+    background-image: url(../img/Tom%204.jpg);
+
+
+
+}
+
+.books .book:nth-child(5) {
+    background-image: url(../img/Tom%205.jpg);
+
+
+
+
+}
+
+
+.books .book:nth-child(6) {
+    background-image: url(../img/Tom%206.jpg);
+
+
+
+}
+
+.books .book:nth-child(7) {
+    background-image: url(../img/Tom%207.jpg);
+
+
+}
+
+.books .book:nth-child(8) {
+    background-image: url(../img/Tom%208.jpg);
+
+
+
+}
+
+.books .book:nth-child(9) {
+    background-image: url(../img/Tom%209.jpg);
+
+
+
+}
+
+
+.books .book:nth-child(10) {
+    background-image: url(../img/Tom%2010.jpg);
+
+
+
+}
+
+
+
+.books .book:nth-child(11) {
+    background-image: url(../img/Tom%2011.jpg);
+
+
+}
+
+
+.books .book:nth-child(12) {
+    background-image: url(../img/Trojmiasto%20okladka.jpg);
+}
+
+
+
+
+
+.books .book:nth-child(13) {
+    background-image: url(../img/cmentarzwelwowie.jpg);
+    background-color: #5c1f76;
+    background-position: center;
+    background-size: contain;
+
+
+
+}
+
+
+.books .book:nth-child(14) {
+    background-image: url(../img/Cmentarzorlatlwowskich.JPG);
+
+    background-color: darkblue;
+    background-position: center;
+    background-size: contain;
+
+
+
+}
+
+.books .book:nth-child(15) {
+    background-image: url(../img/cmentarzlyczakowski.jpg);
+
+
+
+
+
+}
+
+.books .book:nth-child(16) {
+    background-image: url(../img/lwowskieorleta.jpg);
+
+
+
+}
+
+.books .book:nth-child(17) {
+    background-image: url(../img/twierdzekresowe.jpg);
+
+
+
+}
+
+.books .book:nth-child(18) {
+    background-image: url(../img/zkijowanapiccadilly.jpg.jpg);
+
+
+
+}
+
+.books .book:nth-child(19) {
+    background-image: url(../img/adamprochnik.JPG);
+
+
+
+
+}
+
+.books .book:nth-child(20) {
+    background-image: url(../img/almamater.jpg);
+    background-color: darkblue;
+    background-position: center;
+    background-size: contain;
+
+
+
+
+}
+
+
+.book a {
+
+    line-height: 4vh;
+    padding: 25%;
+    height: 350px;
+    text-decoration: none;
+    text-transform: uppercase;
+    display: block;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 90%;
+    opacity: 0;
+    transition: 0.3s;
+    color: white;
+
+
+
+}
+
+
+.book:hover a {
+
+    opacity: 1;
+    background-color: rgba(10, 8, 8, 0.8);
+
+
+}
+
+footer {
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 10px;
+    padding: 5px 0;
+    margin-top: 5vh;
+}
+
+@media (max-width: 1025px) and (orientation: portrait) {
+
+   .name {
+        font-size: 50px;
+    }
+
+    nav ul li {
+        padding-left: 40px;
+    }
+
+
+    nav ul li a {
+
+        font-size: 25px;
+    }
+    
+
+    main {
+        max-width: 1000px;
+        margin: 0 auto;
+        padding: 30px;
+
+    }
+
+    footer {
+
+        font-size: 15px;
+    }
+
+}
+
+@media (max-width: 1367px) and (orientation: landscape) {
+
+    .name {
+        font-size: 50px;
+    }
+
+    nav ul li {
+        padding-left: 100px;
+
+    }
+
+    footer {
+
+        font-size: 15px;
+    }
+
+}
+
+@media (max-width: 769px) and (orientation: portrait) {
+
+     nav ul li {
+        padding-left: 10px;
+    }
+
+    .name {
+        font-size: 40px;
+    }
+
+
+    nav ul li a {
+
+        font-size: 20px;
+    }
+
+    main {
+
+
+        padding: 60px;
+
+    }
+
+    .hKsiazki {
+        font-size: 40px;
+    }
+
+    footer {
+
+        font-size: 12px;
+    }
+
+}
+
+@media (max-width: 1025px) and (orientation: landscape) {
+
+     nav ul li {
+        padding-left: 60px;
+    }
+
+
+    nav ul li a {
+
+        font-size: 20px;
+    }
+
+
+    main {
+
+
+        padding: 40px;
+
+    }
+
+    .hKsiazki {
+        font-size: 40px;
+    }
+
+    footer {
+        font-size: 12px;
+    }
+
+}
+
+
+@media (max-width: 415px) and (orientation: portrait) {
+
+
+    header {
+        height: 20vh;
+    }
+
+    nav {
+
+        height: 20vh;
+
+    }
+
+    .contactlast {
+        padding-left: 50px;
+    }
+
+    .name {
+        font-size: 25px;
+    }
+
+    nav ul li a {
+        font-size: 20px;
+    }
+
+    main {
+        padding: 35px;
+    }
+
+    .hKsiazki {
+        font-size: 24px;
+    }
+
+
+footer {
+        font-size: 10px;
+    }
+}
+
+@media (max-width: 737px) and (orientation: landscape) {
+
+    .name {
+        font-size: 30px;
+
+    }
+
+    nav ul li {
+        padding-left: 20px;
+    }
+    nav ul li a {
+        font-size: 14px;
+
+    }
+
+    main {
+        padding: 35px;
+    }
+
+    .hKsiazki {
+        font-size: 30px;
+    }
+
+
+    footer {
+        font-size: 10px;
+    }
+}
+
+@media (max-width: 376px) and (orientation: portrait) {
+
+
+
+    main {
+        padding: 15px;
+    }
+
+    .hKsiazki {
+        font-size: 24px;
+    }
+
+
+    footer {
+        font-size: 8px;
+    }
+
+}
+
+@media (max-width: 668px) and (orientation: landscape) {
+
+    .name {
+        font-size: 25px;
+
+    }
+
+    nav ul li {
+        padding-left: 15px;
+    }
+    nav ul li a {
+        font-size: 15px;
+
+    }
+
+    main {
+
+        padding: 30px;
+
+    }
+
+    .book {
+        width: 33vw;
+        background-position: center;
+        background-size: cover;
+
+
+    }
+
+}
+
+@media (max-width: 569px) and (orientation: landscape) {
+
+    .name {
+        font-size: 22px;
+
+    }
+
+    nav ul li {
+        padding-left: 0;
+    }
+    nav ul li a {
+        font-size: 15px;
+
+    }
+
+    main {
+
+        padding: 3px;
+
+    }
+
+    .book {
+        width: 36vw;
+        background-position: center;
+        background-size: cover;
+
+    }
+}
+
+@media (max-width: 321px) and (orientation: portrait) {
+
+    .name {
+        font-size: 20px
+    }
+
+
+    nav ul li a {
+        font-size: 15px;
+
+    }
+
+
+    .book {
+        width: 70vw;
+        background-position: center;
+        background-size: cover;
+    }
+
+
+    main {
+
+        padding: 4px;
+
+    }
+
+
+    .hKsiazki {
+        font-size: 20px;
+    }
+}
+
+
+@media (max-width: 824px) and (orientation: landscape) {
+
+    .name {
+        font-size: 30px;
+
+    }
+
+
+    nav ul li {
+        padding-left: 15px;
+    }
+
+
+
+    main {
+        max-width: 760px;
+    }
+    .hKsiazki {
+        font-size: 30px;
+    }
+
+    footer {
+        font-size: 8px;
+    }
+
+}
+
+
+
+@media (max-width: 732px) and (orientation: landscape) {
+
+    .name {
+        font-size: 30px;
+
+    }
+
+
+    nav ul li {
+        padding-left: 15px;
+    }
+
+
+
+    footer {
+        font-size: 8px;
+    }
+
+
+}
+
+@media (max-width: 641px) and (orientation: landscape) {
+
+    .name {
+        font-size: 25px;
+
+    }
+
+
+    footer {
+        font-size: 8px;
+    }
+
+}
+
+@media (max-width: 361px) and (orientation: portrait) {
+
+    .hKsiazki {
+        font-size: 30px;
+
+    }
+
+}
+
+@media (max-width: 321px) and (orientation: portrait) {
+
+
+    nav ul li a {
+
+        font-size: 13px;
+    }
+
+
+    .hKsiazki {
+        font-size: 20px;
+    }
+
+}
+
+@media (max-width: 534px) and (orientation: landscape) {
+
+    .name {
+        font-size: 20px;
+
+    }
+    nav ul li {
+        padding-left: 0;
+    }
+
+    nav ul li a {
+
+        font-size: 13px;
+    }
+
+
+}
